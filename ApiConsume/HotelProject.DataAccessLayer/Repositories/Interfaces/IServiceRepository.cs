@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HotelProject.DataAccessLayer.Interfaces
+namespace HotelProject.DataAccessLayer.Repositories.Interfaces
 {
-    public interface IRoomRepository : IGenericRepository<Room>
+    public interface IServiceRepository : IGenericRepository<Service>
     {
     }
 }
